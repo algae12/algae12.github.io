@@ -13,7 +13,7 @@ $small-width: 480px;
 
 body {
     margin: 0;
-    font-family: "Courier";
+    font-family: 'Courier Prime', monospace;
     background-color: white;
     color: black;
     min-height: 100%;
@@ -25,11 +25,14 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+
 hr {
-    margin: 5px;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 5px 0 5px 0;
+    border-top: 0.5px solid gainsboro;
+    border-bottom: 0.5px solid gainsboro;
 }
+
 code {
     background-color: #d8e7ff;
     color: #002b72;
@@ -179,8 +182,8 @@ code {
         content: '';
         display: block;
         width: 50%;
-        border-top: 0.5px solid rgba(0, 0, 0, 0.1);
-        border-bottom: 0.5px solid rgba(50, 50, 50, 0.3);
+        border-top: 0.5px solid gainsboro;
+        border-bottom: 0.5px solid gainsboro;
     }
 
     ol {

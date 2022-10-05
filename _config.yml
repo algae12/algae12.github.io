@@ -1,13 +1,14 @@
-title: Parchment
-author: pro-panda
-subtitle: The life of a frustrated engineer
+title: Israel Vine
+author: algae12
+subtitle: null
 
 url: "https://rahul-bothra.github.io"
-baseurl: "/parchment"
+baseurl: ""
 
-footer_only_homepage: true
-footer_url: "https://github.com/rahul-bothra"
-footer_text: "Theme by rahul-bothra"
+# TODO: add credit
+# footer_only_homepage: true
+# footer_url: "https://github.com/rahul-bothra"
+# footer_text: "Theme by rahul-bothra"
 
 profile-picture: assets/profile.png
 favicon_location: assets/favicon.ico
@@ -20,5 +21,3 @@ sass:
 navbar:
  - name: "About"
    link: "about"
- - name: "Resume"
-   absolute-link: "https://rahul-bothra.github.io/CV.pdf"

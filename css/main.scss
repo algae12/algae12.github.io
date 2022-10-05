@@ -3,7 +3,7 @@
 ---
 // Customization Variables
 
-$accent: #FF0F00;
+$accent: #0B775E;
 
 $max-width: 740px;
 $med-width: 600px;
@@ -13,8 +13,9 @@ $small-width: 480px;
 
 body {
     margin: 0;
-    font-family: "Inconsolata";
-    background-color: #FFFFDD;
+    font-family: "Courier";
+    background-color: white;
+    color: black;
     min-height: 100%;
 }
 a {
@@ -64,7 +65,7 @@ code {
     padding: 30px 0 20px 0;
     .site-title{
         font-size: 32px;
-        color: #272727;
+        color: black;
         display: inline-block;
     }
 }
@@ -75,7 +76,7 @@ code {
     margin-bottom:1em;
     .title{
         max-width: 500px;
-        color: #272727;
+        color: black;
         display: inline-block;
         font-size: 30px;
     }
